@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page</title>
+ <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="main">
+		<div class="left-img">
+			<img src="./img.jpg" />
+		</div>
+	<div class="right-side">
+		<form method="post">
+				<p>Welcome To Sankey Solution</p>
+				<h3>Login</h3>
+				<div class="login-form">
+					<label for="email" class="name">Email </label> <br>
+					<input type="email" name="email"  id="email">
+					<br>
+					<label for="password" class="name">Password</label><br>
+					<input type="password" name="password" id="passwd">
+					<br>
+					<input type="button" value="Submit" class="login-btn" onclick="validate()"/>	
+				</div>
+				<br>
+				<div>	
+					<div class="forgot">
+						<p>Forgot password ?</p>
+					</div>
+				</div>
+				<br>
+                <br>
+					<h3 id="error" class="err-cls" > </h3>
+        </div>
+			</form>
+		</div>
+
+<script src="validation.js"></script>
+</body>
+</html>
